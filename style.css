@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(191, 189, 193);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.tophead {
+    text-align: center;
+    margin: 0px;
+    pad: 0px;
+    color: beige;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7A6CAC;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c3bcdb;
+  }
+  
+.active {
+    background-color: #8ce8ffa4;
+    
+}
+
+.right{
+    float: right;
+    text-decoration: underline;
+}
+
+#myVideo {
+   
+    width: 100%;
+}
+
+#topvid span{
+    position: absolute;
+    right: 0px;
+    top: 28.7317961164vw;
+}
+
+#Products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.towel h1{
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+a img{
+    width: 20vw;
+}
+
+
+
+
+#footer h1{
+    background-color: #493985;
+    margin: 0px;
+    padding: 0%;
+    text-align:center;
+    color: beige;
+}
