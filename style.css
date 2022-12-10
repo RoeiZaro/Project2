@@ -1,8 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgba(191, 189, 193);
-    background-position: center;
+    background-color: rgb(194, 163, 225);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -79,7 +78,9 @@ a img{
     width: 20vw;
 }
 
-
+#footer{
+    background-color: #493985;
+}
 
 
 #footer h1{
@@ -88,4 +89,14 @@ a img{
     padding: 0%;
     text-align:center;
     color: beige;
+}
+
+#content{
+    display:flex ;
+    justify-content: center;
+}
+
+.socials{
+    width: 4rem;
+    height: 4rem;
 }
