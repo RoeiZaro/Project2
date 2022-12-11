@@ -287,14 +287,14 @@ a img{
 #grey-opt:hover ~#showed-photo-fast{
     animation-name: blue-grey;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/fast\ grey.jpg);
 } 
 
 #blue-opt:hover ~#showed-photo-fast{
     animation-name: grey-blue;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/fast\ blue.jpg);
 } 
 /*fast drying towel*/
@@ -313,14 +313,14 @@ a img{
 #brown-opt:hover ~#showed-photo-trk{
     animation-name: black-brown;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/trk\ brown.jpg);
 }
 
 #pink-opt:hover ~#showed-photo-trk{
     animation-name: black-pink;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/trk\ pink.jpg);
 }
 /*turkish towel*/
@@ -339,14 +339,14 @@ a img{
 #purple-opt:hover ~#showed-photo-egp{
     animation-name: navy-purple;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/egp\ purple.jpg);
 }
 
 #pink-opt:hover ~#showed-photo-egp{
     animation-name: navy-pink;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/egp\ pink.jpg);
 }
 /*egyptian towel*/
@@ -365,14 +365,14 @@ a img{
 #brown-opt:hover ~#showed-photo-satin{
     animation-name: white-brown;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/satin\ light\ brown.jpg);
 }
 
 #blue-opt:hover ~#showed-photo-satin{
     animation-name: white-blue;
     animation-duration: 500ms;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     background-image: url(./Photo/satin\ blue.jpg);
 }
 /*satin*/
@@ -384,4 +384,6 @@ a img{
     ul li {float: none;}
     .right {float: none;}
     #topvid span{top: calc(28.7317961164vw + 244px);}
+
+    #footer{position: absolute; bottom: 0; width: 100%;}
   }
