@@ -385,5 +385,7 @@ a img{
     .right {float: none;}
     #topvid span{top: calc(28.7317961164vw + 244px);}
 
-    #footer{width: 100%; margin-top: 20%;}
+    .buying-section{margin-bottom: 10vh;}
+   #footer{height: 30vh; display: flex; flex-direction: column;
+    justify-content: space-between;}
   }
