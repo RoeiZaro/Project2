@@ -385,5 +385,5 @@ a img{
     .right {float: none;}
     #topvid span{top: calc(28.7317961164vw + 244px);}
 
-    #footer{position: absolute; bottom: 0; width: 100%;}
+    #footer{position: relative; bottom: 0; width: 100%;}
   }
